@@ -6,8 +6,6 @@ There is great utility, however, in learning this structure given only collectio
 
 In cases where there is a linear relationship between the variables, an approach relying on covariance, such as Principal Components Analysis, is applicable and highly effective. In cases where variables' relationships are non-linear (e.g. highly discontinuous), other methods are motivated. 
 
-An example of using this library to accomplish this specific application is contained in the Juypter notebook in the 'examples' directory.
-
 # Installation
 
 # Usage
