@@ -1,4 +1,3 @@
-#   Copyright (c) 2016 AT&T Intellectual Property. All rights reserved.
 #
 #   network.py
 #   
@@ -18,7 +17,7 @@ import logging
 import random
 import itertools
 
-logger = logging.getLogger("BELIEF-NETWORK-LIB")
+logger = logging.getLogger("BELIEF-NETWORK-IND")
 logger.setLevel(logging.ERROR)
 
 ch = logging.StreamHandler()

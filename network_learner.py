@@ -1,9 +1,8 @@
-#   Copyright (c) 2016 AT&T Intellectual Property. All rights reserved.
 #
 #   network_learner.py
 #
 #   Description:
-#   Library for learning a Bayesian Belief Netowrk from CSV data.
+#   Library for learning a Bayesian Belief Network from CSV data.
 #   Binary variables are supported at this time.
 #
 #   See examples directory for a comprehensive (Jupyter notebook) example of using this library
@@ -23,7 +22,7 @@ import math
 import scipy
 from scipy.stats import chi2
 
-logger = logging.getLogger("BELIEF-NETWORK-LIB")
+logger = logging.getLogger("BELIEF-NETWORK-IND")
 logger.setLevel(logging.ERROR)
 
 ch = logging.StreamHandler()
